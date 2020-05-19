@@ -50,6 +50,10 @@
   box-sizing: border-box;
 }
 
+$primary-color: #20c997;
+$primary-color-hover: #17a2b8;
+$primary-color-alpha: #20c99780;
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -162,7 +166,7 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  color: $primary-color;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2460,19 +2464,19 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: $primary-color;
+  border-color: $primary-color;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #f24516;
-  border-color: #ee3e0d;
+  background-color: $primary-color-hover;
+  border-color: $primary-color;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #f24516;
-  border-color: #ee3e0d;
-  box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
+  background-color: $primary-color;
+  border-color: $primary-color;
+  box-shadow: 0 0 0 0.2rem $primary-color-alpha;
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
@@ -6070,7 +6074,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: $primary-color !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9751,7 +9755,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #f4623a !important;
+  color: $primary-color !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9962,7 +9966,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #f4623a;
+  border-color: $primary-color;
 }
 
 hr.light {
@@ -10038,20 +10042,20 @@ hr.light {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #f4623a;
+    color: $primary-color;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: $primary-color;
   }
 }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%), url("../img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

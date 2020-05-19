@@ -1,10 +1,9 @@
 ---
 layout: home
 header:
-  title: Your Favorite Source of Free Bootstrap Themes
+  title: Your Trusted Service For Worldwide Shipping
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+    Global Cargo Express can help you reliably move merchandise from and to anywhere in the world. Send us an inquiry to get started!
   action: # action button is optional
     label: Find Out More
     url: '#about'
@@ -14,11 +13,11 @@ sections:
   - type: call-to-action.html
     section_id: about
     background_style: bg-primary
-    title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+    title: We Can Help
+    text: Whether you are looking to import or export, we've got you covered! We offer a full range of services to help you with transporting your goods from door to door. We work with top ocean carriers and airlines to provide you with the best international shipping services. We also offer ground transportation to help you get your cargo from hubs to warehouses or other destinations.
     actions:
-      - title: Get Started!
-        url: '#page-top'
+      - title: View Services
+        url: '#services'
         class: btn-light
 
   - type: services.html
@@ -26,137 +25,50 @@ sections:
     #background_style: bg-info
     title: At Your Service
     services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
-        icon: fa-gem text-info
-        url: https://startbootstrap.com/
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
-        icon: fa-paper-plane
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
-        icon: fa-laptop-code
-      - title: Made with Love
-        text: You have to make your websites with love these days!
+      - title: Ocean Shipping
+        text: Ship with top ocean carriers in the world.
+        icon: fa-ship
+      - title: Air Freight
+        text: Ship by air for faster shipping times.
+        icon: fa-plane
+      - title: Trucking
+        text: Move cargo from point to point on roads.
+        icon: fa-truck
+      - title: Rail Freight
+        text: Ship by train as an alternative option on land.
+        icon: fa-train
+      - title: Flexibility
+        text: Full container or loose freight.
+        icon: fa-box
+      - title: Contract Rates
+        text: Competitive pricing thanks to contracts with carriers.
+        icon: fa-file-signature
+      - title: Trust
+        text: Over 10 years of industry experience.
+        icon: fa-handshake
+      - title: Care
+        text: Personal attention to every shipment.
         icon: fa-heart
-      - title: Other 1
-        text: Some not-so long text here.
-        icon: fa-heart
-      - title: Other 2
-        text: Some not-so long text here.
-        icon: fa-heart
-
-  - type: portfolio.html
-    # this section has always ID 'portfolio'
-    #section_id: portfolio
-    #background_style: bg-dark
-    projects:
-      - title: Project 1
-        text: This is a very short project description.
-        # the images are located in:
-        # img/portfolio/fullsize
-        # img/portfolio/thumbnails
-        icon: 1.jpg
-        url: '#'
-      - title: Project 2
-        text: This is a very short project description.
-        icon: 2.jpg
-        url: '#'
-      - title: Project 3
-        text: This is a very short project description.
-        icon: 3.jpg
-        url: '#'
-      - title: Project 4
-        text: This is a very short project description.
-        icon: 4.jpg
-        url: '#'
-      - title: Project 5
-        text: This is a very short project description.
-        icon: 5.jpg
-        url: '#'
-      - title: Project 6
-        text: This is a very short project description.
-        icon: 6.jpg
-        url: '#'
-
-  - type: aside.html
-    section_id: aside
-    title: Free Download at Start Bootstrap!
-    actions:
-      - title: Download Now!
-        url: https://startbootstrap.com/themes/creative/
-        class: btn-light
-
-  - type: members.html
-    section_id: members
-    title: Our Crew!
-    background_style: bg-info text-white
-    members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
-        image: assets/img/members/person1.jpg
-        url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
-        image: assets/img/members/person2.jpg
-        url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
-        image: assets/img/members/person3.jpg
-        url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
-        url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
-        url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
-        url: '#'
-
-  - type: timeline.html
-    section_id: timeline
-    title: Major Achievements!
-    background_style: bg-dark text-primary
-    last_image: assets/img/timeline-end.png
-    actions:
-      - image: assets/img/portfolio/thumbnails/1.jpg
-        title: >+
-          2017-2018
-          **Humble Beginnings**
-        text: >-
-          We begun with small group of people willing to work hard and make our
-          teaching skills worth , in front of all others!
-      - image: assets/img/portfolio/thumbnails/2.jpg
-        title: >+
-          November 2019
-          An Coaching started
-        text: >-
-          We started to gather like minded people and started our stategies
-          and future plans to them. As a result , interested people joined us!
+      - title: Licensed
+        text: FMC registered and bonded.
+        icon: fa-balance-scale
 
   - type: contact.html
     section_id: contacts
-    title: Let's Get In Touch!
-    text: >-
-      Ready to start your next project with us? Give us a call or send us an email
-      and we will get back to you as soon as possible!
+    title: Get In Touch
+    text: Ready to ship? Give us a call or send us an email with your information and we will get back to you as soon as possible!
     actions:
-    - title: +1 (202) 555-014
+    - title: (323) 262-6688
       icon: fa-phone
-    - title: E-Mail
+      url: '#'
+    - title: (323) 262-7688
+      icon: fa-fax
+      url: '#'
+    - title: info@globalcargoexpressinc.com
       icon: fa-envelope
-      url: mailto:contact@yourwebsite.com
-    - title: Twitter
-      icon: fa-twitter
-      icon_type: fab
-      url: '#'
-    - title: Facebook
-      icon: fa-facebook
-      icon_type: fab
-      url: '#'
+      url: mailto:david@globalcargoexpressinc.com
+    - title: 2063 S. Atlantic Blvd. # 307
+      icon: fa-map-marker
+      url: mailto:david@globalcargoexpressinc.com
 
 ---
