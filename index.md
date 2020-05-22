@@ -60,15 +60,11 @@ sections:
     actions:
     - title: (323) 262-6688
       icon: fa-phone
-      url: '#'
     - title: (323) 262-7688
       icon: fa-fax
-      url: '#'
     - title: info@globalcargoexpressinc.com
       icon: fa-envelope
-      url: mailto:david@globalcargoexpressinc.com
     - title: 2063 S. Atlantic Blvd. # 307
       icon: fa-map-marker
-      url: mailto:david@globalcargoexpressinc.com
 
 ---
